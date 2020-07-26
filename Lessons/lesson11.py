@@ -26,9 +26,9 @@ name = 'Ichigo'
 print('Hi, {}{}{}!'.format('\033[4;36m', name, '\033[m'))
 
 # using dictionary (that prof explains in another lesson)
-cores = {'clear': '\033[m',
+colors = {'clear': '\033[m',
          'blue': '\033[34m',
          'yellow': '\033[33m',
          'black-and-white': '\033[7;30m'}
 
-print('Hello, {}{}{}!'.format(cores['black-and-white'], name, cores['clear']))
+print('Hello, {}{}{}!'.format(colors['black-and-white'], name, colors['clear']))
