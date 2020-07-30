@@ -23,7 +23,7 @@ print('-= END of reverse =-')
 # it is possible to use the "step" parameter to skip by 2
 for number in range(0, 10, 2):
     print(number)
-print('-= END skipng by 2 =-', end='\n\n')
+print('-= END skipping by 2 =-', end='\n\n')
 
 
 # With variable via input
